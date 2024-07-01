@@ -1,0 +1,13 @@
+.errorPage {
+  justify-self: center;
+  text-align: center;
+  max-width: 720px;
+  padding: 20px;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 5px #f08080;
+  margin: 30px auto;
+}
+
+.errorPage a {
+  color: revert;
+}
