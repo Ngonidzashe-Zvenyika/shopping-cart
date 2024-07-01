@@ -22,3 +22,9 @@
 9. Web API's
 
 #### Sources:
+
+- Icons by <a href="https://www.freepik.com/free-photo/rows-red-seats-theater_3532061.htm#query=movies&position=4&from_view=search&track=sph&uuid=1baa0b57-1503-4cca-bb12-4e25eb1b2aa7"> Freepik</a>
+
+- Icons by <a rel="noreferrer" target="_blank" href="https://icons8.com">Icons8</a>
+
+This product uses the <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">TMDB</a> API but is not endorsed or certified by <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">TMDB</a>.
