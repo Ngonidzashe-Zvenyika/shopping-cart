@@ -1,0 +1,20 @@
+.buttons {
+  justify-self: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+}
+
+.inactive:hover {
+  box-shadow: 2px 2px 2px #ffa500;
+}
+
+.active {
+  box-shadow: 2px 2px 2px #ff0000;
+}
