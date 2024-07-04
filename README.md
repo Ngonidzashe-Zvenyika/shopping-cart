@@ -27,4 +27,4 @@
 
 - Icons by <a rel="noreferrer" target="_blank" href="https://icons8.com">Icons8</a>
 
-This product uses the <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">TMDB</a> API but is not endorsed or certified by <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">TMDB</a>.
+- This product uses the <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">TMDB</a> API but is not endorsed or certified by <a target="_blank" rel="noreferrer" href="https://www.themoviedb.org/">TMDB</a>.
