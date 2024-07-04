@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.5s ease;
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 5px #808080;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+}
