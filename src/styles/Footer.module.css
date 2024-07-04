@@ -1,0 +1,19 @@
+.footer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  margin: 0px 30px 15px;
+}
+
+.footer a {
+  color: revert;
+}
+
+.footer img {
+  display: block;
+  width: auto;
+  height: 15px;
+  margin: 15px auto 0px;
+}
