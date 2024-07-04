@@ -1,0 +1,22 @@
+:root {
+  font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+  font-family: Arial, sans-serif, system-ui, "Segoe UI", Roboto,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 100vh;
+}
