@@ -24,3 +24,13 @@
   height: auto;
   min-height: 200px;
 }
+
+@media (max-width: 620px) {
+  .card {
+    box-shadow: 2px 2px 5px #808080;
+  }
+  .card:hover,
+  .card:focus {
+    transform: scale(1);
+  }
+}

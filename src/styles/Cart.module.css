@@ -58,14 +58,28 @@
   justify-self: center;
   position: relative;
   display: grid;
-  gap: 10px;
+  grid-template-rows: 20px 20px;
   grid-template-columns: 20px 1fr 20px;
+  gap: 10px;
 }
 
 .toggles label {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
   text-align: center;
+}
+
+.toggles button,
+.remove {
+  border: 1px solid #000000;
+  appearance: none;
+}
+
+.toggles button:focus,
+.toggles input:focus,
+.remove:focus {
+  outline-offset: 2px;
+  outline: 1px solid #000000;
 }
 
 .remove {

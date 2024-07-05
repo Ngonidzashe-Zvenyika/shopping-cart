@@ -18,7 +18,7 @@
 
 .hero form:has(input:focus),
 .hero button:focus {
-  outline: 2px solid rgb(254, 80, 80);
+  outline: 2px solid #fe5050;
 }
 
 .hero input {
