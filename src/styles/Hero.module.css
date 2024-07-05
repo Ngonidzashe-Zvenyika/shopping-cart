@@ -13,18 +13,24 @@
 .hero form {
   display: flex;
   height: 34px;
-}
-
-.hero input {
-  width: 100%;
-  height: 100%;
-  padding: 3px;
   border: 2px solid #000000;
 }
 
-.hero input:focus,
+.hero form:has(input:focus),
 .hero button:focus {
-  outline: 2px solid #ff0000;
+  outline: 2px solid rgb(254, 80, 80);
+}
+
+.hero input {
+  flex: 1;
+  height: 100%;
+  padding: 3px;
+  border: none;
+  appearance: none;
+}
+
+.hero input:focus {
+  outline: none;
 }
 
 .hero button {
@@ -32,6 +38,10 @@
   border: none;
   appearance: none;
   background-color: #000000;
+}
+
+.hero button:hover {
+  cursor: pointer;
 }
 
 .hero img {
