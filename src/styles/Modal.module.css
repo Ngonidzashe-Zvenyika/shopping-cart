@@ -1,5 +1,5 @@
 body:has(.overlay) {
-  max-height: 100vh;
+  max-height: calc(100dvh);
   overflow: hidden;
 }
 
@@ -22,7 +22,7 @@ body:has(.overlay) {
   grid-template-rows: auto 1fr;
   align-content: start;
   width: clamp(300px, 100%, 720px);
-  height: min(calc(100vh - 63px), 920px);
+  height: min(calc(100dvh - 63px), 920px);
   padding: 22px;
   border: none;
   background-color: #ffffff;
