@@ -40,7 +40,7 @@ function Modal({ modal, setModal, cart, setCart }) {
             <label htmlFor={modal.id}>Add more views:</label>
             <input
               onInput={(e) => {
-                if (e.nativeEvent.data === "-" || e.nativeEvent.data === "e") {
+                if (isNaN(e.nativeEvent.data)) {
                   e.target.value = e.target.value.slice(
                     0,
                     e.target.value.length - 1

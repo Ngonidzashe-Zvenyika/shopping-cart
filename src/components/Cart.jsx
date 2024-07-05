@@ -33,7 +33,7 @@ function Cart({ cart, setCart }) {
   };
 
   const updateCart = (e, item) => {
-    if (e.nativeEvent.data === "-" || e.nativeEvent.data === "e") {
+    if (isNaN(e.nativeEvent.data)) {
       e.target.value = e.target.value.slice(0, e.target.value.length - 1);
       return;
     } else if (e.target.value === "") {
