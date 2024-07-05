@@ -15,7 +15,7 @@ function Modal({ modal, setModal, cart, setCart }) {
       <div className={styles.overlay}></div>
       <div ref={dialog} className={styles.modal} tabIndex={"0"}>
         <button className={styles.close} onClick={() => setModal(false)}>
-          <img src="/close.png" alt="close modal" />
+          Close
         </button>
         <div className={styles.backdrop}>
           <img

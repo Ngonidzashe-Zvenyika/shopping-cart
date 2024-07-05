@@ -1,3 +1,8 @@
+body:has(.overlay) {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 .overlay {
   position: fixed;
   top: 0px;
@@ -18,7 +23,7 @@
   align-content: start;
   width: clamp(300px, 100%, 720px);
   height: min(calc(100vh - 63px), 920px);
-  padding: 15px;
+  padding: 22px;
   border: none;
   background-color: #ffffff;
   opacity: 1;
@@ -35,25 +40,21 @@
 }
 
 .close {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  padding: 5px;
   z-index: 1;
+  color: #ffffff;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  padding: 5px 10px;
+  border: 1px solid #000000;
   background-color: #000000;
   opacity: 0.7;
-  height: 25px;
-  border: none;
-  border-radius: 50%;
 }
 
-.close:focus {
+.close:focus,
+.close:hover {
   outline-offset: -2px;
   outline: 1px solid #ffffff;
-}
-
-.close:hover {
-  cursor: pointer;
 }
 
 .close img {
